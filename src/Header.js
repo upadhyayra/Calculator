@@ -4,7 +4,7 @@ const Header = (props) => {
       <div className="header_expression custom-scroll">
         <p>{props.expression}</p>
       </div>
-          <p className="header_result">{props.result}</p>
+          {/* <p className="header_result">{props.result}</p> */}
         
     </div>
   );

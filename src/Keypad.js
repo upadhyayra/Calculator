@@ -53,7 +53,7 @@ const Keypad = (props) => {
   ];
   const symbols = [
     {
-      label: "DL",
+      label: "⌫",
       keyCode: 8,
       value: "backspace",
     },
@@ -97,7 +97,7 @@ const Keypad = (props) => {
         ))}
       </div>
       <div className="keypad_symbols">
-        <p onClick={props.handleclear}>Ac</p>
+        <p onClick={props.handleclear}>AC</p>
         {symbols.map((item, index) => (
           <p
             onClick={() => props.handleKeyPress(item.keyCode, item.value)}

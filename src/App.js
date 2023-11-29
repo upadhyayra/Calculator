@@ -105,8 +105,8 @@ useEffect(()=>{
         return;
       }
       calculateResult(expression);
-      // setExpression(result);
-      // setResult(result);
+      setExpression(result);
+      setResult("");
     }
   };
 
